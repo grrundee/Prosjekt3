@@ -23,4 +23,3 @@ for i in range(1,n,1):
 fx = (deltaX/2) * (fx)
 
 print("Det omtrentlige arealet av nedbrent skog blir: ",fx,"km^2")
-print(deltaX)

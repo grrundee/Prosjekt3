@@ -16,8 +16,8 @@ n = 9 # Velger 9 ettersom det passer med antall målepunkter
 deltaX = (Xn-X0)/n
 
 fx = 0
-i=1
-for i in range(1,n,1):
+i=0
+for i in range(0,n,1):
     fx += m.sqrt(deltaX**2 + (abs(y[i]-y[i+1]))**2)
 
 print("Det estimerte lengden av grenseskille mellom frisk og nedbrent skog blir: ",fx,"km")
