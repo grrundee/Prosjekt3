@@ -20,4 +20,4 @@ while (abs(f(x))>stopval and i<100):
     print("Tilnermet løsning for x =",x)
     print("Dette er irretasjon nr.", i)
 
-Print("Vi ser at metoden jobber seg inn mot et nullpunkt og vi finner ett annet nullpunkt enn i oppgave B")
+print("Vi ser at metoden jobber seg inn mot et nullpunkt og vi finner ett annet nullpunkt enn i oppgave B")
