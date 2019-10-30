@@ -22,3 +22,13 @@ plt.show()
 
 #her kan du skrive programmet ditt
 
+z = np.array([])
+
+for i in range(0,163,1):
+    x = x_upper[i] - p[0]
+    y = f_upper[i] - p[1]
+    z = np.append(z,np.sqrt(x**2 + y**2))
+
+minZ = np.min(z)
+
+print("Den minste avstanden mellom punktet og kurven er ",minZ)
