@@ -17,7 +17,7 @@ p = [145, 227] #Her er det faste punktet "på sørsiden av vannet"
      
 plt.plot(p[0], p[1], 'b*', x_upper,f_upper, 'r*')
 plt.axis('equal')
-plt.show()
+#plt.show()
 
 
 #her kan du skrive programmet ditt
@@ -32,3 +32,4 @@ for i in range(0,163,1):
 minZ = np.min(z)
 
 print("Den minste avstanden mellom punktet og kurven er ",minZ)
+plt.show()

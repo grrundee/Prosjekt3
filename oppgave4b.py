@@ -22,7 +22,7 @@ x_lower = np.linspace(79, 350, 270) #Her er x-verdiene for observasjonene g_lowe
      
 plt.plot(x_lower, g_lower, 'b*', x_upper, f_upper, 'r*')
 plt.axis('equal')
-plt.show()
+#plt.show()
 
 
 #her kan du skrive programmet ditt
@@ -40,3 +40,4 @@ for i in range(0,270):
 minZ = np.min(z)
 
 print("Den minste avstanden mellom lower og upper curve er ",minZ)
+plt.show()

@@ -21,4 +21,4 @@ while (abs(f(x))>stopval and i<100):
     print("Dette er irretasjon nr.", i)
 
 print("Vi ser at metoden jobber seg inn mot et nullpunkt og vi finner ett annet nullpunkt", end='')
-print("enn i oppgave B, men dette nullpunktet ligger uten for deffinisjonsområdet.")
+print("enn i oppgave B, men dette nullpunktet ligger uten for \ndeffinisjonsområdet.")

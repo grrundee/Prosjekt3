@@ -29,10 +29,10 @@ while(Xn < 0 and d != 0.0 and i < 3000):
     Xn += deltaX 
     i +=1
 
-print("Minste avstand fra origo til kurven: ",d, "\n", "Punktet \"d\" finner vi ved x lik: ", punktx, " Denne x-verdien passer godt med plottet")
+print("Minste avstand fra origo til kurven:",d, "\nPunktet \"d\" finner vi ved x lik:", punktx, " Denne x-verdien passer godt med plottet")
 
 plt.plot(plotX,plotY) 
 plt.xlim(-2.5,0.5)
-plt.ylim(1.4,2.5)
+plt.ylim(0,2.5)
 
 plt.show()
