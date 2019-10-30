@@ -27,3 +27,16 @@ plt.show()
 
 #her kan du skrive programmet ditt
 
+z = np.array([])
+
+for i in range(0,270):
+    x1 = x_lower[i]
+    y1 = g_lower[i]
+    for j in range(0,163):
+        x = x_upper[j] - x1
+        y = f_upper[j] - y1
+        z = np.append(z,np.sqrt(x**2 + y**2))
+
+minZ = np.min(z)
+
+print("Den minste avstanden mellom lower og upper curve er ",minZ)
